@@ -1,13 +1,23 @@
 import React from 'react';
-import Link from '../../components/atoms/Link';
-import Text from '../../components/atoms/Text';
+import Card from '../../components/molecules/Card';
 
 const HomePage = (): JSX.Element => (
   <React.Fragment>
-    <h1>Hello HomePage</h1>
-    <Text>This is a test for all the paragraphs</Text>
-    <Link to="/signin">Sign in</Link>
-    <Link to="/signup">Sign up</Link>
+    <Card
+      image="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+      avatar="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+      title="Footlocker"
+    />
+    <Card
+      image="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+      avatar="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+      title="JD Sport"
+    />
+    <Card
+      image="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+      avatar="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
+      title="FootAsylum"
+    />
   </React.Fragment>
 );
 
